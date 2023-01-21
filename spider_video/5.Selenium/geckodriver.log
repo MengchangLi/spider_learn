@@ -1,0 +1,17 @@
+1674187785573	geckodriver	INFO	Listening on 127.0.0.1:50451
+1674188035123	geckodriver	INFO	Listening on 127.0.0.1:40563
+/snap/firefox/current/firefox.launcher: 46: exec: /snap/pycharm-professional/316/usr/lib/firefox/firefox: not found
+1674188035127	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "35779" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMiJz37"
+/snap/firefox/current/firefox.launcher: 46: exec: /snap/pycharm-professional/316/usr/lib/firefox/firefox: not found
+1674188048992	geckodriver	INFO	Listening on 127.0.0.1:48461
+/snap/firefox/current/firefox.launcher: 46: exec: /snap/pycharm-professional/316/usr/lib/firefox/firefox: not found
+1674188048995	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "43691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileT6uJKH"
+/snap/firefox/current/firefox.launcher: 46: exec: /snap/pycharm-professional/316/usr/lib/firefox/firefox: not found
+1674191389885	geckodriver	INFO	Listening on 127.0.0.1:52997
+/snap/firefox/current/firefox.launcher: 46: exec: /snap/pycharm-professional/316/usr/lib/firefox/firefox: not found
+1674191389889	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "57909" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejwt1Kf"
+/snap/firefox/current/firefox.launcher: 46: exec: /snap/pycharm-professional/316/usr/lib/firefox/firefox: not found
+1674194179127	geckodriver	INFO	Listening on 127.0.0.1:46205
+/snap/firefox/current/firefox.launcher: 46: exec: /snap/pycharm-professional/316/usr/lib/firefox/firefox: not found
+1674194179130	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "42779" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefYwgGr"
+/snap/firefox/current/firefox.launcher: 46: exec: /snap/pycharm-professional/316/usr/lib/firefox/firefox: not found
