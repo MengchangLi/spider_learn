@@ -3,7 +3,7 @@ from yande_re_db.items import YandeReDbItem
 class PublicpicSpider(scrapy.Spider):
     name = 'publicPic'
     # allowed_domains = ['beats0.github.io']
-    start_urls = ['https://beats0.github.io/scripter/yande.re_db/r.json']
+    start_urls = ['https://beats0.github.io/scripter/yande.re_db/public.json']
     url_title = 'https://steamuserimages-a.akamaihd.net/ugc/'
 
     def parse(self, response):
@@ -25,6 +25,3 @@ class PublicpicSpider(scrapy.Spider):
     #     item = response.meta['item']
     #     item['pic_data'] = response.body
     #     yield item
-
-
-

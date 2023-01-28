@@ -1,4 +1,4 @@
-# Scrapy settings for yande_re_db project
+# Scrapy settings for wangyiNews project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,30 +7,17 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-# Use random ua
-from fake_useragent import UserAgent
-import random
-ua = UserAgent()
-USER_AGENT = ua.random
+BOT_NAME = 'wangyiNews'
 
-# img dir path
-IMAGES_STORE = './imgs/'
+SPIDER_MODULES = ['wangyiNews.spiders']
+NEWSPIDER_MODULE = 'wangyiNews.spiders'
 
-BOT_NAME = 'yande_re_db'
-
-SPIDER_MODULES = ['yande_re_db.spiders']
-NEWSPIDER_MODULE = 'yande_re_db.spiders'
-
-# MEDIA_ALLOW_REDIRECTS = True
-
-# only output error
-LOG_LEVEL = 'ERROR'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'yande_re_db (+http://www.yourdomain.com)'
+#USER_AGENT = 'wangyiNews (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -58,13 +45,13 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'yande_re_db.middlewares.YandeReDbSpiderMiddleware': 543,
+#    'wangyiNews.middlewares.WangyinewsSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'yande_re_db.middlewares.YandeReDbDownloaderMiddleware': 543,
+#    'wangyiNews.middlewares.WangyinewsDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -75,9 +62,9 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-    'yande_re_db.pipelines.ImagePipeline': 300,
-}
+#ITEM_PIPELINES = {
+#    'wangyiNews.pipelines.WangyinewsPipeline': 300,
+#}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
